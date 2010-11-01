@@ -1,0 +1,9 @@
+cumulus:
+  path: /home/rif/Documents/prog/objC/Cumulus/cumulodata/schedule/css/blueprint
+  custom_layout:
+    column_count: 9
+    column_width: 48
+    gutter_width: 6
+  plugins:
+    - fancy-type
+

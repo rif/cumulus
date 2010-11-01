@@ -1,0 +1,20 @@
+<html>
+<head>
+<meta pid="RountevUnderstanding-CameraReady" track="Research" title="Understanding Parallelism-Inhibiting Dependences in Sequential Java Programs" presenter="Atanas Rountev" authors="Atanas Rountev,Kevin Van Valkenburgh,Dacong Yan,P. Sadayappan" location="D1" date="14-09-2010 15:45"/>
+<title>Understanding Parallelism-Inhibiting Dependences in Sequential Java Programs</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<link rel="stylesheet" href="../../css/paperstyle.css" type="text/css">
+</head>
+<body>
+<h2>Understanding Parallelism-Inhibiting Dependences in Sequential Java Programs</h2>
+<small class="alt"> Tuesday, 14-09-2010 - 15:45 location: D1</small>
+<hr>
+<h4 class="alt">Authors: Atanas Rountev, Kevin Van Valkenburgh, Dacong Yan and P. Sadayappan</h4>
+<p>
+Many existing sequential components, libraries, and applications will need to be re-engineered for parallelism. This work proposes a dynamic analysis of sequential Java programs that helps a programmer to understand bottlenecks for parallelism. The analysis measures the parallelism available in the program by considering a hypothetical parallel execution in which the code within a method executes sequentially, but each caller will execute in parallel with its callees. A best- case scenario is assumed: every statement executes as early as possible, as long as all dependences from the sequential program are satisfied. The idealized speedup under this model is a measure of the method-level parallelism inherent in the program, independent of hardware and JVMs. The analysis employs bytecode instrumentation and an online algorithm which tracks the reads and writes of relevant memory locations during a run of the sequential program. If the best-case parallelism is low, this likely means that the program cannot be easily re-engineered into a scalable parallel version. In experiments with 26 Java programs, we observed this situation for most programs. This problem is sometines due to programmer decisions that were perfectly reasonable for a sequential program but would be detrimental to the performance of any parallel version. To pinpoint such decisions, we propose an approach that employs the dynamic analysis to automatically find memory locations whose read and write operations decrease the available parallelism. In three case studies, we demonstrate how these bottlenecks can be identified and eliminated using the proposed approach.
+
+</p>
+<br/>
+
+</body>
+</html>

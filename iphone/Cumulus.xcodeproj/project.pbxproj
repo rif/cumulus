@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04396C001100D85E00FBAFCF /* SchedulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04396BFE1100D85E00FBAFCF /* SchedulerViewController.m */; };
+		044115661168CEDC0027B4F6 /* AuthorDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 044115651168CEDC0027B4F6 /* AuthorDoc.m */; };
+		045175BA1157ED2A00E5452B /* PaperDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 045175B91157ED2A00E5452B /* PaperDoc.m */; };
+		0454D0A410F8D5F3001AB60E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0454D0A310F8D5F3001AB60E /* Icon.png */; };
+		0454D0AA10F8D801001AB60E /* TraksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454D0A910F8D801001AB60E /* TraksViewController.m */; };
+		0454D0AD10F8D815001AB60E /* AuthorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454D0AC10F8D815001AB60E /* AuthorsViewController.m */; };
+		0454D0BA10F8DC2C001AB60E /* DataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454D0B910F8DC2C001AB60E /* DataLoader.m */; };
+		0493CE871167B271003FB99D /* PapersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0493CE861167B271003FB99D /* PapersViewController.m */; };
+		04CE1DC0118D7A8100882677 /* PaperTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CE1DBF118D7A8100882677 /* PaperTableCell.xib */; };
+		04D0908D116B4FFB00852A33 /* AuthorHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D0908C116B4FFB00852A33 /* AuthorHtmlViewController.m */; };
+		04D8E2F81166156D00461A56 /* NewsViewConroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D8E2F71166156D00461A56 /* NewsViewConroller.m */; };
+		04DAB1CD11A7199700688ECF /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DAB1CC11A7199700688ECF /* flag.png */; };
+		04DAB1CF11A719A000688ECF /* paw.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DAB1CE11A719A000688ECF /* paw.png */; };
+		04DAB1D111A719A800688ECF /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DAB1D011A719A800688ECF /* microphone.png */; };
+		04DAB1D311A719AE00688ECF /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DAB1D211A719AE00688ECF /* star.png */; };
+		04DAB1D711A719EE00688ECF /* favnot.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DAB1D611A719EE00688ECF /* favnot.png */; };
+		04DAB1D911A719F300688ECF /* favyes.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DAB1D811A719F300688ECF /* favyes.png */; };
+		04ECA14A116CB5C20094E176 /* PaperHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ECA148116CB5C20094E176 /* PaperHtmlViewController.m */; };
+		04ECA14B116CB5C20094E176 /* PaperHtmlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ECA149116CB5C20094E176 /* PaperHtmlViewController.xib */; };
+		04F00838118B2000001020B8 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F00837118B2000001020B8 /* FavoritesViewController.m */; };
+		1D3623260D0F684500981E51 /* CumulusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CumulusAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		4F37185C123A42A300568F9F /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F37185B123A42A300568F9F /* MainWindow-iPad.xib */; };
+		4FF8DE73123127C70002DACE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF8DE72123127C60002DACE /* libz.dylib */; };
+		4FF8DE7E123127F90002DACE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8DE76123127F90002DACE /* ioapi.c */; };
+		4FF8DE7F123127F90002DACE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8DE78123127F90002DACE /* mztools.c */; };
+		4FF8DE80123127F90002DACE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8DE7A123127F90002DACE /* unzip.c */; };
+		4FF8DE81123127F90002DACE /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8DE7C123127F90002DACE /* zip.c */; };
+		4FF8DE84123128110002DACE /* TWZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8DE83123128110002DACE /* TWZipArchive.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04396BFD1100D85E00FBAFCF /* SchedulerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulerViewController.h; sourceTree = "<group>"; };
+		04396BFE1100D85E00FBAFCF /* SchedulerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulerViewController.m; sourceTree = "<group>"; };
+		044115641168CEDC0027B4F6 /* AuthorDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorDoc.h; sourceTree = "<group>"; };
+		044115651168CEDC0027B4F6 /* AuthorDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorDoc.m; sourceTree = "<group>"; };
+		045175B81157ED2A00E5452B /* PaperDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperDoc.h; sourceTree = "<group>"; };
+		045175B91157ED2A00E5452B /* PaperDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperDoc.m; sourceTree = "<group>"; };
+		0454D0A310F8D5F3001AB60E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0454D0A810F8D801001AB60E /* TraksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraksViewController.h; sourceTree = "<group>"; };
+		0454D0A910F8D801001AB60E /* TraksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraksViewController.m; sourceTree = "<group>"; };
+		0454D0AB10F8D815001AB60E /* AuthorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorsViewController.h; sourceTree = "<group>"; };
+		0454D0AC10F8D815001AB60E /* AuthorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorsViewController.m; sourceTree = "<group>"; };
+		0454D0B810F8DC2C001AB60E /* DataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLoader.h; sourceTree = "<group>"; };
+		0454D0B910F8DC2C001AB60E /* DataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLoader.m; sourceTree = "<group>"; };
+		0493CE851167B271003FB99D /* PapersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PapersViewController.h; sourceTree = "<group>"; };
+		0493CE861167B271003FB99D /* PapersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PapersViewController.m; sourceTree = "<group>"; };
+		04CE1DBF118D7A8100882677 /* PaperTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaperTableCell.xib; sourceTree = "<group>"; };
+		04D0908B116B4FFB00852A33 /* AuthorHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorHtmlViewController.h; sourceTree = "<group>"; };
+		04D0908C116B4FFB00852A33 /* AuthorHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorHtmlViewController.m; sourceTree = "<group>"; };
+		04D8E2F61166156D00461A56 /* NewsViewConroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewConroller.h; sourceTree = "<group>"; };
+		04D8E2F71166156D00461A56 /* NewsViewConroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewConroller.m; sourceTree = "<group>"; };
+		04DAB1CC11A7199700688ECF /* flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flag.png; path = ../icons/flag.png; sourceTree = SOURCE_ROOT; };
+		04DAB1CE11A719A000688ECF /* paw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paw.png; path = ../icons/paw.png; sourceTree = SOURCE_ROOT; };
+		04DAB1D011A719A800688ECF /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = microphone.png; path = ../icons/microphone.png; sourceTree = SOURCE_ROOT; };
+		04DAB1D211A719AE00688ECF /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = ../icons/star.png; sourceTree = SOURCE_ROOT; };
+		04DAB1D611A719EE00688ECF /* favnot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favnot.png; path = ../icons/favnot.png; sourceTree = SOURCE_ROOT; };
+		04DAB1D811A719F300688ECF /* favyes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favyes.png; path = ../icons/favyes.png; sourceTree = SOURCE_ROOT; };
+		04ECA147116CB5C20094E176 /* PaperHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperHtmlViewController.h; sourceTree = "<group>"; };
+		04ECA148116CB5C20094E176 /* PaperHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperHtmlViewController.m; sourceTree = "<group>"; };
+		04ECA149116CB5C20094E176 /* PaperHtmlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PaperHtmlViewController.xib; path = Classes/PaperHtmlViewController.xib; sourceTree = "<group>"; };
+		04F00836118B2000001020B8 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		04F00837118B2000001020B8 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CumulusAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CumulusAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CumulusAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CumulusAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Cumulus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cumulus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* Cumulus_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cumulus_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F37185B123A42A300568F9F /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		4F78B15B123190BE0070C112 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		4FF8DE72123127C60002DACE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4FF8DE75123127F90002DACE /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		4FF8DE76123127F90002DACE /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		4FF8DE77123127F90002DACE /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		4FF8DE78123127F90002DACE /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		4FF8DE79123127F90002DACE /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		4FF8DE7A123127F90002DACE /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		4FF8DE7B123127F90002DACE /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		4FF8DE7C123127F90002DACE /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		4FF8DE7D123127F90002DACE /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		4FF8DE82123128110002DACE /* TWZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWZipArchive.h; sourceTree = "<group>"; };
+		4FF8DE83123128110002DACE /* TWZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWZipArchive.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Cumulus-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Cumulus-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				4FF8DE73123127C70002DACE /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CE1E36118D9D6800882677 /* HtmlViews */ = {
+			isa = PBXGroup;
+			children = (
+				04D0908B116B4FFB00852A33 /* AuthorHtmlViewController.h */,
+				04D0908C116B4FFB00852A33 /* AuthorHtmlViewController.m */,
+				04ECA147116CB5C20094E176 /* PaperHtmlViewController.h */,
+				04ECA148116CB5C20094E176 /* PaperHtmlViewController.m */,
+			);
+			name = HtmlViews;
+			sourceTree = "<group>";
+		};
+		04CE1E40118D9DAB00882677 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				0454D0B810F8DC2C001AB60E /* DataLoader.h */,
+				0454D0B910F8DC2C001AB60E /* DataLoader.m */,
+				045175B81157ED2A00E5452B /* PaperDoc.h */,
+				045175B91157ED2A00E5452B /* PaperDoc.m */,
+				044115641168CEDC0027B4F6 /* AuthorDoc.h */,
+				044115651168CEDC0027B4F6 /* AuthorDoc.m */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		04CE1E41118D9DCD00882677 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				04DAB1D211A719AE00688ECF /* star.png */,
+				04DAB1CC11A7199700688ECF /* flag.png */,
+				04DAB1CE11A719A000688ECF /* paw.png */,
+				04DAB1D611A719EE00688ECF /* favnot.png */,
+				04DAB1D811A719F300688ECF /* favyes.png */,
+				04DAB1D011A719A800688ECF /* microphone.png */,
+				0454D0A310F8D5F3001AB60E /* Icon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F826BC11231AE0500D931AC /* tools */,
+				4FF8DE74123127F90002DACE /* minizip */,
+				04CE1E40118D9DAB00882677 /* Parsers */,
+				04CE1E36118D9D6800882677 /* HtmlViews */,
+				1D3623240D0F684500981E51 /* CumulusAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CumulusAppDelegate.m */,
+				0454D0A810F8D801001AB60E /* TraksViewController.h */,
+				0454D0A910F8D801001AB60E /* TraksViewController.m */,
+				0454D0AB10F8D815001AB60E /* AuthorsViewController.h */,
+				0454D0AC10F8D815001AB60E /* AuthorsViewController.m */,
+				04396BFD1100D85E00FBAFCF /* SchedulerViewController.h */,
+				04396BFE1100D85E00FBAFCF /* SchedulerViewController.m */,
+				04D8E2F61166156D00461A56 /* NewsViewConroller.h */,
+				04D8E2F71166156D00461A56 /* NewsViewConroller.m */,
+				0493CE851167B271003FB99D /* PapersViewController.h */,
+				0493CE861167B271003FB99D /* PapersViewController.m */,
+				04F00836118B2000001020B8 /* FavoritesViewController.h */,
+				04F00837118B2000001020B8 /* FavoritesViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Cumulus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Cumulus */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				4F37185A123A429B00568F9F /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				4FF8DE72123127C60002DACE /* libz.dylib */,
+				4F78B15B123190BE0070C112 /* Entitlements.plist */,
+			);
+			name = Cumulus;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* Cumulus_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04CE1E41118D9DCD00882677 /* Icons */,
+				04ECA149116CB5C20094E176 /* PaperHtmlViewController.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Cumulus-Info.plist */,
+				04CE1DBF118D7A8100882677 /* PaperTableCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F37185A123A429B00568F9F /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				4F37185B123A42A300568F9F /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		4F826BC11231AE0500D931AC /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				4FF8DE82123128110002DACE /* TWZipArchive.h */,
+				4FF8DE83123128110002DACE /* TWZipArchive.m */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		4FF8DE74123127F90002DACE /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				4FF8DE75123127F90002DACE /* crypt.h */,
+				4FF8DE76123127F90002DACE /* ioapi.c */,
+				4FF8DE77123127F90002DACE /* ioapi.h */,
+				4FF8DE78123127F90002DACE /* mztools.c */,
+				4FF8DE79123127F90002DACE /* mztools.h */,
+				4FF8DE7A123127F90002DACE /* unzip.c */,
+				4FF8DE7B123127F90002DACE /* unzip.h */,
+				4FF8DE7C123127F90002DACE /* zip.c */,
+				4FF8DE7D123127F90002DACE /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Cumulus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Cumulus" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cumulus;
+			productName = Cumulus;
+			productReference = 1D6058910D05DD3D006BFB54 /* Cumulus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cumulus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Cumulus */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Cumulus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				0454D0A410F8D5F3001AB60E /* Icon.png in Resources */,
+				04ECA14B116CB5C20094E176 /* PaperHtmlViewController.xib in Resources */,
+				04CE1DC0118D7A8100882677 /* PaperTableCell.xib in Resources */,
+				04DAB1CD11A7199700688ECF /* flag.png in Resources */,
+				04DAB1CF11A719A000688ECF /* paw.png in Resources */,
+				04DAB1D111A719A800688ECF /* microphone.png in Resources */,
+				04DAB1D311A719AE00688ECF /* star.png in Resources */,
+				04DAB1D711A719EE00688ECF /* favnot.png in Resources */,
+				04DAB1D911A719F300688ECF /* favyes.png in Resources */,
+				4F37185C123A42A300568F9F /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CumulusAppDelegate.m in Sources */,
+				0454D0AA10F8D801001AB60E /* TraksViewController.m in Sources */,
+				0454D0AD10F8D815001AB60E /* AuthorsViewController.m in Sources */,
+				0454D0BA10F8DC2C001AB60E /* DataLoader.m in Sources */,
+				04396C001100D85E00FBAFCF /* SchedulerViewController.m in Sources */,
+				045175BA1157ED2A00E5452B /* PaperDoc.m in Sources */,
+				04D8E2F81166156D00461A56 /* NewsViewConroller.m in Sources */,
+				0493CE871167B271003FB99D /* PapersViewController.m in Sources */,
+				044115661168CEDC0027B4F6 /* AuthorDoc.m in Sources */,
+				04D0908D116B4FFB00852A33 /* AuthorHtmlViewController.m in Sources */,
+				04ECA14A116CB5C20094E176 /* PaperHtmlViewController.m in Sources */,
+				04F00838118B2000001020B8 /* FavoritesViewController.m in Sources */,
+				4FF8DE7E123127F90002DACE /* ioapi.c in Sources */,
+				4FF8DE7F123127F90002DACE /* mztools.c in Sources */,
+				4FF8DE80123127F90002DACE /* unzip.c in Sources */,
+				4FF8DE81123127F90002DACE /* zip.c in Sources */,
+				4FF8DE84123128110002DACE /* TWZipArchive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/prog/objc/Cumulus/iphone/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Cumulus_Prefix.pch;
+				INFOPLIST_FILE = "Cumulus-Info.plist";
+				PRODUCT_NAME = Cumulus;
+				SDKROOT = iphoneos4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/prog/objc/Cumulus/iphone/Entitlements.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dana Petcu (688598TTE8)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Cumulus_Prefix.pch;
+				INFOPLIST_FILE = "Cumulus-Info.plist";
+				PRODUCT_NAME = Cumulus;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5FF098AC-EBBA-4A27-9782-29E49AD2729D";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F27C2781222FB97003A0669 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dana Petcu";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		4F27C2791222FB97003A0669 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "~/Documents/prog/objc/Cumulus/iphone/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Cumulus_Prefix.pch;
+				INFOPLIST_FILE = "Cumulus-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Cumulus;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Cumulus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				4F27C2791222FB97003A0669 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Cumulus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				4F27C2781222FB97003A0669 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
