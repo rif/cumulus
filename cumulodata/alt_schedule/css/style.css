@@ -5,12 +5,16 @@ body {
     font-weight: bold;
 }
 
-#content {
-      background: #dddddd;
+#content {      
       margin: 0 auto;
-      position: relative;
-      padding: 10px;
+      position: relative;      
 }
+
+.td14 {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;   
+}
+
 
 .cell {
    -webkit-border-radius: 5px;
@@ -23,7 +27,11 @@ body {
    border: 1px solid #aaa;
 }
 
-a {text-decoration: none;}
-a:link, a:visited { color:#fff; }
-a:hover { color:#fff; }
+.spacer {
+    height: 5px;
+}
+
+a {font-size: 14px;text-decoration: none;}
+a:link, a:visited { color:#4C90F9; }
+a:hover { color:##4C90F9; }
 
